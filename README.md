@@ -1,4 +1,4 @@
-# MotionPath To Curve Blender Addon
+# MotionPath Converter To Curve Blender Addon
 Addon for blender to convert motion path in curve for more comfort worl
 
 This converter can help you solve many type of task like you need to make vizualisation of motion path on render. 
