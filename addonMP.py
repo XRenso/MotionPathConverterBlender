@@ -1,5 +1,5 @@
 import bpy
-bl_info = {'name' : 'MotionPathToCurve', 'category' : '3D View', 'author': 'XRenso'}
+bl_info = {'name' : 'MotionPathToCurve', 'category' : 'Converter', 'author': 'XRenso'}
 
 
 class MotionPathToCurve(bpy.types.Operator):
