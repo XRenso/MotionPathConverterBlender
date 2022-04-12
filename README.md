@@ -42,10 +42,10 @@ sequenceDiagram
 
 ## Comparing paths with differents settings of boolean on obj
 ### 1. With Intersect on boolean
-![ALT-text](https://i.imgur.com/jW1Qrzv.mp4 "With Intersect on boolean")
+![ALT-text](https://media3.giphy.com/media/TmsHZfdWiTT6hbwjbB/giphy.gif?cid=790b7611b39ea65baaaf68aeb7239bf3ebe85a101ad494cc&rid=giphy.gif&ct=g "With Intersect on boolean")
 
 ### 2. Without Intersect on boolean
-![ALT-text](https://i.imgur.com/JduE4Xp.mp4 "Without Intersect on boolean")
+![ALT-text](https://media3.giphy.com/media/4KVuHleCADz3nj5Kfd/giphy.gif?cid=790b761120d504ae7b95a01e81e62850559e950c2e649e5b&rid=giphy.gif&ct=g "Without Intersect on boolean")
 
 #### [To plan :arrow_up:](https://github.com/XRenso/MotionPathConverterBlender#plan)
 
