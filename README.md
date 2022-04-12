@@ -7,16 +7,16 @@ This converter can help you solve many type of task like you need to make vizual
 
 1.    [Running](https://github.com/XRenso/MotionPathConverterBlender#running)
 2.    [Compramision of boolean modificator](https://github.com/XRenso/MotionPathConverterBlender#comparing-paths-with-differents-settings-of-boolean-on-obj)   
-    1.    [With Intersect on boolean](https://github.com/XRenso/MotionPathConverterBlender/blob/main/README.md#1-with-intersect-on-boolean)
+    1.    [With Intersect on boolean](https://github.com/XRenso/MotionPathConverterBlender#1-with-intersect-on-boolean)
     .    
-    2.    [Without Intersect on boolean](https://github.com/XRenso/MotionPathConverterBlender/blob/main/README.md#2-without-intersect-on-boolean)
+    2.    [Without Intersect on boolean](https://github.com/XRenso/MotionPathConverterBlender2-without-intersect-on-boolean)
     .
-3.  [Working on addon](https://github.com/XRenso/MotionPathConverterBlender/blob/main/README.md#working-on-addon)
-4.  [Future plans](https://github.com/XRenso/MotionPathConverterBlender/blob/main/README.md#future-plans)
-    1.    [Make diffents version of addon like context menu](https://github.com/XRenso/MotionPathConverterBlender/blob/main/README.md#1-make-diffents-version-of-addon-like-context-menu)
-    2.    [Fix error that you can't do curve if you turn more than 1 motion path](https://github.com/XRenso/MotionPathConverterBlender/blob/main/README.md#2-fix-error-that-you-cant-do-curve-if-you-turn-more-than-1-motion-path)
-    3.    [Make more flexable](https://github.com/XRenso/MotionPathConverterBlender/blob/main/README.md#3-make-more-flexable)
-    4.    [Do automatic creation of path with objects](https://github.com/XRenso/MotionPathConverterBlender/blob/main/README.md#4-do-automatic-creation-of-path-with-objects)
+3.  [Working on addon](https://github.com/XRenso/MotionPathConverterBlender#working-on-addon)
+4.  [Future plans](https://github.com/XRenso/MotionPathConverterBlender#future-plans)
+    1.    [Make diffents version of addon like context menu](https://github.com/XRenso/MotionPathConverterBlender#1-make-diffents-version-of-addon-like-context-menu)
+    2.    [Fix error that you can't do curve if you turn more than 1 motion path](https://github.com/XRenso/MotionPathConverterBlender#2-fix-error-that-you-cant-do-curve-if-you-turn-more-than-1-motion-path)
+    3.    [Make more flexable](https://github.com/XRenso/MotionPathConverterBlender#3-make-more-flexable)
+    4.    [Do automatic creation of path with objects](https://github.com/XRenso/MotionPathConverterBlender#4-do-automatic-creation-of-path-with-objects)
 
 
 
