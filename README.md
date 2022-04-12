@@ -38,7 +38,7 @@ sequenceDiagram
 
 #### All code wasn't completely written by me. I'm just rework source code for more comfortable work with motion paths.
 
-#### [To plan :arrow_up:](https://github.com/XRenso/MotionPathConverterBlender/blob/main/README.md#plan)
+#### [To plan :arrow_up:](https://github.com/XRenso/MotionPathConverterBlender#plan)
 
 ## Comparing paths with differents settings of boolean on obj
 ### 1. With Intersect on boolean
@@ -47,7 +47,7 @@ sequenceDiagram
 ### 2. Without Intersect on boolean
 ![ALT-text](https://im3.ezgif.com/tmp/ezgif-3-1efe10c9b3.gif "Without Intersect on boolean")
 
-#### [To plan :arrow_up:](https://github.com/XRenso/MotionPathConverterBlender/blob/main/README.md#plan)
+#### [To plan :arrow_up:](https://github.com/XRenso/MotionPathConverterBlender#plan)
 
 ## Working on addon
 
@@ -68,7 +68,7 @@ journey
         Readme layout: 3: Me
 
 ```
-#### [To plan :arrow_up:](https://github.com/XRenso/MotionPathConverterBlender/blob/main/README.md#plan)
+#### [To plan :arrow_up:](https://github.com/XRenso/MotionPathConverterBlender#plan)
 
 ## Future Plans
 
@@ -77,4 +77,4 @@ journey
 ### 3. Make more flexable
 ### 4. Do automatic creation of path with objects
 
-#### [To plan :arrow_up:](https://github.com/XRenso/MotionPathConverterBlender/blob/main/README.md#plan)
+#### [To plan :arrow_up:](https://github.com/XRenso/MotionPathConverterBlender#plan)
