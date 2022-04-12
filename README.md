@@ -10,6 +10,7 @@ This converter can help you solve many type of task like you need to make vizual
     1.    [With Intersect on boolean](https://github.com/XRenso/MotionPathConverterBlender/blob/main/README.md#1-with-intersect-on-boolean)
     .    
     2.    [Without Intersect on boolean](https://github.com/XRenso/MotionPathConverterBlender/blob/main/README.md#2-without-intersect-on-boolean)
+    .
 3.  [Working on addon](https://github.com/XRenso/MotionPathConverterBlender/blob/main/README.md#working-on-addon)
 4.  [Future plans](https://github.com/XRenso/MotionPathConverterBlender/blob/main/README.md#future-plans)
     1.    [Make diffents version of addon like context menu](https://github.com/XRenso/MotionPathConverterBlender/blob/main/README.md#1-make-diffents-version-of-addon-like-context-menu)
