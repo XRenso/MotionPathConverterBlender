@@ -9,7 +9,7 @@ This converter can help you solve many type of task like you need to make vizual
 2.    [Compramision of boolean modificator](https://github.com/XRenso/MotionPathConverterBlender#comparing-paths-with-differents-settings-of-boolean-on-obj)   
     1.    [With Intersect on boolean](https://github.com/XRenso/MotionPathConverterBlender#1-with-intersect-on-boolean)
     .    
-    2.    [Without Intersect on boolean](https://github.com/XRenso/MotionPathConverterBlender2-without-intersect-on-boolean)
+    2.    [Without Intersect on boolean](https://github.com/XRenso/MotionPathConverterBlender#2-without-intersect-on-boolean)
     .
 3.  [Working on addon](https://github.com/XRenso/MotionPathConverterBlender#working-on-addon)
 4.  [Future plans](https://github.com/XRenso/MotionPathConverterBlender#future-plans)
