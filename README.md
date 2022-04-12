@@ -6,16 +6,16 @@ This converter can help you solve many type of task like you need to make vizual
 ## Plan
 
 1.    [Running](https://github.com/XRenso/MotionPathConverterBlender/blob/main/README.md#running)
-2.    [Compramision of boolean modificator](https://github.com/XRenso/MotionPathConverterBlender/edit/main/README.md#comparing-paths-with-differents-settings-of-boolean-on-obj)   
-    1.    [With Intersect on boolean](https://github.com/XRenso/MotionPathConverterBlender/edit/main/README.md#1-with-intersect-on-boolean)
+2.    [Compramision of boolean modificator](https://github.com/XRenso/MotionPathConverterBlender/blob/main/README.md#comparing-paths-with-differents-settings-of-boolean-on-obj)   
+    1.    [With Intersect on boolean](https://github.com/XRenso/MotionPathConverterBlender/blob/main/README.md#1-with-intersect-on-boolean)
     .    
-    2.    [Without Intersect on boolean](https://github.com/XRenso/MotionPathConverterBlender/edit/main/README.md#2-without-intersect-on-boolean)
-3.  [Working on addon](https://github.com/XRenso/MotionPathConverterBlender/edit/main/README.md#working-on-addon)
-4.  [Future plans](https://github.com/XRenso/MotionPathConverterBlender/edit/main/README.md#future-plans)
-    1.    [Make diffents version of addon like context menu](https://github.com/XRenso/MotionPathConverterBlender/edit/main/README.md#1-make-diffents-version-of-addon-like-context-menu)
-    2.    [Fix error that you can't do curve if you turn more than 1 motion path](https://github.com/XRenso/MotionPathConverterBlender/edit/main/README.md#2-fix-error-that-you-cant-do-curve-if-you-turn-more-than-1-motion-path)
-    3.    [Make more flexable](https://github.com/XRenso/MotionPathConverterBlender/edit/main/README.md#3-make-more-flexable)
-    4.    [Do automatic creation of path with objects](https://github.com/XRenso/MotionPathConverterBlender/edit/main/README.md#4-do-automatic-creation-of-path-with-objects)
+    2.    [Without Intersect on boolean](https://github.com/XRenso/MotionPathConverterBlender/blob/main/README.md#2-without-intersect-on-boolean)
+3.  [Working on addon](https://github.com/XRenso/MotionPathConverterBlender/blob/main/README.md#working-on-addon)
+4.  [Future plans](https://github.com/XRenso/MotionPathConverterBlender/blob/main/README.md#future-plans)
+    1.    [Make diffents version of addon like context menu](https://github.com/XRenso/MotionPathConverterBlender/blob/main/README.md#1-make-diffents-version-of-addon-like-context-menu)
+    2.    [Fix error that you can't do curve if you turn more than 1 motion path](https://github.com/XRenso/MotionPathConverterBlender/blob/main/README.md#2-fix-error-that-you-cant-do-curve-if-you-turn-more-than-1-motion-path)
+    3.    [Make more flexable](https://github.com/XRenso/MotionPathConverterBlender/blob/main/README.md#3-make-more-flexable)
+    4.    [Do automatic creation of path with objects](https://github.com/XRenso/MotionPathConverterBlender/blob/main/README.md#4-do-automatic-creation-of-path-with-objects)
 
 
 
@@ -37,7 +37,7 @@ sequenceDiagram
 
 #### All code wasn't completely written by me. I'm just rework source code for more comfortable work with motion paths.
 
-#### [To plan :arrow_up:](https://github.com/XRenso/MotionPathConverterBlender/edit/main/README.md#plan)
+#### [To plan :arrow_up:](https://github.com/XRenso/MotionPathConverterBlender/blob/main/README.md#plan)
 
 ## Comparing paths with differents settings of boolean on obj
 ### 1. With Intersect on boolean
@@ -46,7 +46,7 @@ sequenceDiagram
 ### 2. Without Intersect on boolean
 ![ALT-text](https://im3.ezgif.com/tmp/ezgif-3-1efe10c9b3.gif "Without Intersect on boolean")
 
-#### [To plan :arrow_up:](https://github.com/XRenso/MotionPathConverterBlender/edit/main/README.md#plan)
+#### [To plan :arrow_up:](https://github.com/XRenso/MotionPathConverterBlender/blob/main/README.md#plan)
 
 ## Working on addon
 
@@ -67,7 +67,7 @@ journey
         Readme layout: 3: Me
 
 ```
-#### [To plan :arrow_up:](https://github.com/XRenso/MotionPathConverterBlender/edit/main/README.md#plan)
+#### [To plan :arrow_up:](https://github.com/XRenso/MotionPathConverterBlender/blob/main/README.md#plan)
 
 ## Future Plans
 
@@ -76,4 +76,4 @@ journey
 ### 3. Make more flexable
 ### 4. Do automatic creation of path with objects
 
-#### [To plan :arrow_up:](https://github.com/XRenso/MotionPathConverterBlender/edit/main/README.md#plan)
+#### [To plan :arrow_up:](https://github.com/XRenso/MotionPathConverterBlender/blob/main/README.md#plan)
