@@ -17,7 +17,7 @@ sequenceDiagram
 ```
 #### All code wasn't completely written by me. I'm just rework source code for more comfortable work with motion paths.
 
-##Comparing paths with differents settings of boolea on obj
+## Comparing paths with differents settings of boolea on obj
 
 ### 1. With Intersect on boolean
 ![ALT-text](https://im3.ezgif.com/tmp/ezgif-3-0141be9a1d.gif "With Intersect on boolean")
