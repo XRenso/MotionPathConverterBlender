@@ -8,21 +8,22 @@ class MotionPathToCurve(bpy.types.Operator):
     bl_options = {'REGISTER', 'UNDO'}
 
     def execute(self,context):
-        ob = bpy.context.object
-        mp = ob.motion_path
-        if mp:
-            path = bpy.data.curves.new('path','CURVE')
-            curve = bpy.data.objects.new('Curve',path)
-            context.scene.collection.objects.link(curve)
-            path.dimensions = '3D'
-            spline = path.splines.new('BEZIER')
-            spline.bezier_points.add(len(mp.points)-1)
-            for i,o in enumerate(spline.bezier_points):
-                o.co = mp.points[i].co
-                o.handle_right_type = 'AUTO'
-                o.handle_left_type = 'AUTO'
-
-            return {'FINISHED'}
+        obj = bpy.data.objects
+        for ob in obj:
+            mp = ob.motion_path
+            if mp:
+                path = bpy.data.curves.new('path','CURVE')
+                curve = bpy.data.objects.new(ob.name + '_path',path)
+                context.scene.collection.objects.link(curve)
+                path.dimensions = '3D'
+                spline = path.splines.new('BEZIER')
+                spline.bezier_points.add(len(mp.points)-1)
+                for i,o in enumerate(spline.bezier_points):
+                    o.co = mp.points[i].co
+                    o.handle_right_type = 'AUTO'
+                    o.handle_left_type = 'AUTO'
+    
+        return {'FINISHED'}
 
 def menu_func(self,context):
     self.layout.operator(MotionPathToCurve.bl_idname)
