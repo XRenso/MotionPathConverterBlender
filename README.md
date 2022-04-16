@@ -76,8 +76,7 @@ journey
 ## Future Plans
 
 ### 1. Make diffents version of addon like context menu
-### 2. Fix error that you can't do curve if you turn more than 1 motion path
-### 3. Make more flexable
-### 4. Do automatic creation of path with objects
+### 2. Make more flexable
+### 3. Do automatic creation of path with objects
 
 #### [To plan :arrow_up:](https://github.com/XRenso/MotionPathConverterBlender#plan)
