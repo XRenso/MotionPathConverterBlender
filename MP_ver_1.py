@@ -6,7 +6,10 @@ class MotionPathToCurve(bpy.types.Operator):
     bl_idname = "object.convert_motion_path"
     bl_label = "Convert Motion Path to Curve"
     bl_options = {'REGISTER', 'UNDO'}
-
+    selected_objects: bpy.props.BoolProperty(
+        name="Convert only selected",
+        default=False,
+    )
     def execute(self,context):
         
         if self.selected_objects:
