@@ -5,17 +5,17 @@ Addon для более удобной работы с путями в blender �
 
 ## Содержание
 
-1.    [Запуск](https://github.com/XRenso/MotionPathConverterBlender#running)
-2.    [Сравнение модификатора Boolean](https://github.com/XRenso/MotionPathConverterBlender#comparing-paths-with-differents-settings-of-boolean-on-obj)   
-    1.    [С Intersect на boolean](https://github.com/XRenso/MotionPathConverterBlender#1-with-intersect-on-boolean)
+1.    [Запуск](https://github.com/XRenso/MotionPathConverterBlender/blob/main/docs/ru/introduction.md#запуск)
+2.    [Сравнение модификатора Boolean](https://github.com/XRenso/MotionPathConverterBlender/blob/main/docs/ru/introduction.md#сравнение-модификатора-boolean)   
+    1.    [С Intersect на boolean](https://github.com/XRenso/MotionPathConverterBlender/blob/main/docs/ru/introduction.md#сравнение-модификатора-boolean)
     .    
-    2.    [Без Intersect на boolean](https://github.com/XRenso/MotionPathConverterBlender#2-without-intersect-on-boolean)
+    2.    [Без Intersect на boolean](https://github.com/XRenso/MotionPathConverterBlender/blob/main/docs/ru/introduction.md#сравнение-модификатора-boolean)
     .
-3.  [Работа над аддоном](https://github.com/XRenso/MotionPathConverterBlender#working-on-addon)
-4.  [Планы на будущее](https://github.com/XRenso/MotionPathConverterBlender#future-plans)
-    1.    [Сделать разные версии(контекст меню и т.д)](https://github.com/XRenso/MotionPathConverterBlender#1-make-diffents-version-of-addon-like-context-menu)
-    2.    [Сделать более практичным](https://github.com/XRenso/MotionPathConverterBlender#3-make-more-flexable)
-    3.    [Сделать автоматическое создание объектов привязанных к пути](https://github.com/XRenso/MotionPathConverterBlender#4-do-automatic-creation-of-path-with-objects)
+3.  [Работа над аддоном](https://github.com/XRenso/MotionPathConverterBlender/blob/main/docs/ru/introduction.md#работа-над-аддоном)
+4.  [Планы на будущее](https://github.com/XRenso/MotionPathConverterBlender/blob/main/docs/ru/introduction.md#планы-на-будущее)
+    1.    [Сделать разные версии(контекст меню и т.д)](https://github.com/XRenso/MotionPathConverterBlender/blob/main/docs/ru/introduction.md#1-сделать-разные-версииконтекст-меню-и-тд)
+    2.    [Сделать более практичным](https://github.com/XRenso/MotionPathConverterBlender/blob/main/docs/ru/introduction.md#2-сделать-более-практичным)
+    3.    [Сделать автоматическое создание объектов привязанных к пути](https://github.com/XRenso/MotionPathConverterBlender/blob/main/docs/ru/introduction.md#3-сделать-автоматическое-создание-объектов-привязанных-к-пути)
 
 
 
@@ -40,7 +40,7 @@ sequenceDiagram
 
 #### Весь код не был полностью написан мной. Я просто пределываю исходник для более удобной работы с motion path.
 
-#### [К оглавлению :arrow_up:](https://github.com/XRenso/MotionPathConverterBlender#plan)
+#### [К оглавлению :arrow_up:](https://github.com/XRenso/MotionPathConverterBlender/blob/main/docs/ru/introduction.md#содержание)
 
 ## Сравнение модификатора Boolean
 ### 1. С Intersect на boolean
@@ -49,7 +49,7 @@ sequenceDiagram
 ### 2. Без Intersect на boolean
 ![ALT-text](https://media3.giphy.com/media/4KVuHleCADz3nj5Kfd/giphy.gif?cid=790b761120d504ae7b95a01e81e62850559e950c2e649e5b&rid=giphy.gif&ct=g "Without Intersect on boolean")
 
-#### [К оглавлению :arrow_up:](https://github.com/XRenso/MotionPathConverterBlender#plan)
+#### [К оглавлению :arrow_up:](https://github.com/XRenso/MotionPathConverterBlender/blob/main/docs/ru/introduction.md#содержание)
 
 ## Работа над аддоном
 
@@ -70,7 +70,7 @@ journey
         Оформление ReadMe: 3: Я
 
 ```
-#### [К оглавлению :arrow_up:](https://github.com/XRenso/MotionPathConverterBlender#plan)
+#### [К оглавлению :arrow_up:](https://github.com/XRenso/MotionPathConverterBlender/blob/main/docs/ru/introduction.md#содержание)
 
 ## Планы на будущее
 
@@ -78,4 +78,4 @@ journey
 ### 2. Сделать более практичным
 ### 3. Сделать автоматическое создание объектов привязанных к пути
 
-#### [К оглавлению :arrow_up:](https://github.com/XRenso/MotionPathConverterBlender#plan)
+#### [К оглавлению :arrow_up:](https://github.com/XRenso/MotionPathConverterBlender/blob/main/docs/ru/introduction.md#содержание)
