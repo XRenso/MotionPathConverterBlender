@@ -24,6 +24,8 @@ This converter can help you solve many type of task like you need to make vizual
 
 ## Running
 After installing you need to press F3 and search `Convert Motion Path to Curve` after you will see new object on scene `*obj_name*_path`.
+
+
 ![Is it working?](https://media1.giphy.com/media/9N1Gx7u0od3Tli0K66/giphy.gif?cid=790b7611034876555271d88253d5dbbcdf86cb1e406f2387&rid=giphy.gif&ct=g "Example")
 
 
