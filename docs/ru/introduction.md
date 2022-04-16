@@ -7,9 +7,9 @@ Addon для более удобной работы с путями в blender �
 
 1.    [Запуск](https://github.com/XRenso/MotionPathConverterBlender/blob/main/docs/ru/introduction.md#запуск)
 2.    [Сравнение модификатора Boolean](https://github.com/XRenso/MotionPathConverterBlender/blob/main/docs/ru/introduction.md#сравнение-модификатора-boolean)   
-    1.    [С Intersect на boolean](https://github.com/XRenso/MotionPathConverterBlender/blob/main/docs/ru/introduction.md#сравнение-модификатора-boolean)
+    1.    [С Intersect на boolean](https://github.com/XRenso/MotionPathConverterBlender/blob/main/docs/ru/introduction.md#1-с-intersect-на-boolean)
     .    
-    2.    [Без Intersect на boolean](https://github.com/XRenso/MotionPathConverterBlender/blob/main/docs/ru/introduction.md#сравнение-модификатора-boolean)
+    2.    [Без Intersect на boolean](https://github.com/XRenso/MotionPathConverterBlender/blob/main/docs/ru/introduction.md#2-без-intersect-на-boolean)
     .
 3.  [Работа над аддоном](https://github.com/XRenso/MotionPathConverterBlender/blob/main/docs/ru/introduction.md#работа-над-аддоном)
 4.  [Планы на будущее](https://github.com/XRenso/MotionPathConverterBlender/blob/main/docs/ru/introduction.md#планы-на-будущее)
