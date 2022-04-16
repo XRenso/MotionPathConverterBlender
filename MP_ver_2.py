@@ -81,7 +81,8 @@ def register():
 
 
 def unregister():
-    bpy.utils.unregister_class(MotionPathToCurve)
+    bpy.utils.unregister_class(SellObjects)
+    bpy.utils.unregister_class(AllObjects)
     bpy.utils.unregister_class(Converter)
 
 
