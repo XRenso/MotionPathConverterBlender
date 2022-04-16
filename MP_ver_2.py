@@ -1,5 +1,5 @@
 import bpy
-bl_info = {'name' : 'Test1', 'category' : 'Converter', 'author': 'XRenso'}
+bl_info = {'name' : 'Motion Path to Curve', 'category' : 'Converter', 'author': 'XRenso'}
 
 
 
