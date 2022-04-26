@@ -3,6 +3,7 @@ Addon for blender to convert motion path in curve for more comfort work
 
 This converter can help you solve many type of task like you need to make vizualisation of motion path on render. 
 
+[Русская версия](https://github.com/XRenso/MotionPathConverterBlender/blob/main/docs/ru/introduction.md)
 ## Plan
 
 1.    [Running](https://github.com/XRenso/MotionPathConverterBlender#running)
