@@ -1,12 +1,14 @@
 import bpy
 bl_info = {'name' : 'Motion Path to Curve', 'category' : 'Converter', 'author': 'XRenso'}
 
+name_of_primitive = ''
 
 
 def get_enum_value(self, context):
+    global name_of_primitive
     j = self.object
-    print(j)
-
+    name_of_primitive = j
+    print(name_of_primitive)
 
 mode_options = [
         ("mesh.primitive_plane_add", "Plane", '', 'MESH_PLANE', 0),
