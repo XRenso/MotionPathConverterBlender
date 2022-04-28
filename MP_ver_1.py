@@ -37,17 +37,23 @@ class AllObjects(bpy.types.Operator):
         obj = bpy.data.objects
         for ob in obj: 
             mp = ob.motion_path
-            if mp:
+            if mp and mp.length > 0:
                 path = bpy.data.curves.new('path','CURVE')
                 curve = bpy.data.objects.new(ob.name + '_path',path)
                 context.scene.collection.objects.link(curve)
                 path.dimensions = '3D'
                 spline = path.splines.new('BEZIER')
                 spline.bezier_points.add(len(mp.points)-1)
+                
                 for i,o in enumerate(spline.bezier_points):
                     o.co = mp.points[i].co
                     o.handle_right_type = 'AUTO'
                     o.handle_left_type = 'AUTO'    
+                
+                if bpy.context.scene.add_object:
+                    eval('bpy.ops.' + bpy.context.scene.object + '()')
+                                  
+                
         return {'FINISHED'}
 
 
