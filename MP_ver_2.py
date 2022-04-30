@@ -4,12 +4,6 @@ bl_info = {'name' : 'Motion Path to Curve', 'category' : 'Converter', 'author': 
 name_of_primitive = ''
 
 
-def get_enum_value(self, context):
-    global name_of_primitive
-    j = self.object
-    name_of_primitive = j
-    print(name_of_primitive)
-
 mode_options = [
         ("mesh.primitive_plane_add", "Plane", '', 'MESH_PLANE', 0),
         ("mesh.primitive_cube_add", "Cube", '', 'MESH_CUBE', 1),
@@ -23,7 +17,7 @@ mode_options = [
 
 PROPS = [
     ('add_object', bpy.props.BoolProperty(name='Add Object', default=False)),
-    ('object', bpy.props.EnumProperty(name='Premetives', description = 'Premetives object for add on curve', items = mode_options,default="mesh.primitive_plane_add", update=get_enum_value)),
+    ('object', bpy.props.EnumProperty(name='Premetives', description = 'Premetives object for add on curve', items = mode_options,default="mesh.primitive_plane_add")),
 ]
 
 
@@ -37,7 +31,7 @@ class AllObjects(bpy.types.Operator):
         obj = bpy.data.objects
         for ob in obj: 
             mp = ob.motion_path
-            if mp:
+            if mp and mp.length > 0:
                 path = bpy.data.curves.new('path','CURVE')
                 curve = bpy.data.objects.new(ob.name + '_path',path)
                 context.scene.collection.objects.link(curve)
@@ -47,7 +41,9 @@ class AllObjects(bpy.types.Operator):
                 for i,o in enumerate(spline.bezier_points):
                     o.co = mp.points[i].co
                     o.handle_right_type = 'AUTO'
-                    o.handle_left_type = 'AUTO'    
+                    o.handle_left_type = 'AUTO'
+                if bpy.context.scene.add_object:
+                    eval('bpy.ops.' + bpy.context.scene.object + '()')
         return {'FINISHED'}
 
 
@@ -114,7 +110,7 @@ def unregister():
         delattr(bpy.types.Scene, prop_name, prop_value)
 
 
-register()    
+register()
     
 if __name__ == "__main__":
     register()
